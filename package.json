@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/bot.ts",
   "scripts": {
-    "test": "ts-node ."
+    "test": "nodemon ."
   },
   "repository": {
     "type": "git",
