@@ -1,0 +1,29 @@
+{
+  "name": "coolbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/bot.ts",
+  "scripts": {
+    "test": "ts-node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eliiia/coolbot.git"
+  },
+  "author": "Eliiia",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Eliiia/coolbot/issues"
+  },
+  "homepage": "https://github.com/Eliiia/coolbot#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3"
+  }
+}
