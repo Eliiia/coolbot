@@ -4,7 +4,8 @@
   "description": "",
   "main": "src/bot.ts",
   "scripts": {
-    "test": "nodemon ."
+    "test": "nodemon src/bot.ts",
+    "setup": "ts-node src/deployInitialCommand.ts"
   },
   "repository": {
     "type": "git",
