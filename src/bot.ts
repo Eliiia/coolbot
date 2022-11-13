@@ -21,6 +21,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
     }
 
     try {
+        command(interaction);
     } catch (error) {
         console.error(error);
         await interaction.reply({

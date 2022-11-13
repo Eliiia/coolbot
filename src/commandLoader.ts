@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 
 export default () => {
-    const commands = new Collection();
+    const commands = new Collection<String, Function>();
 
     const commandsPath = path.join(__dirname, 'commands');
     const commandFiles = fs
